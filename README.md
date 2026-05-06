@@ -407,3 +407,9 @@ The `depends_on: rabbitmq` directive in `docker-compose.yml` only waits for the 
 **`version` field in docker-compose.yml is deprecated**
 
 The `version: '3.8'` key at the top of `docker-compose.yml` is ignored by modern versions of Docker Compose and will eventually cause a warning. It can be removed safely.
+
+---
+
+## Licencia
+
+Este proyecto se distribuye bajo la **Licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
