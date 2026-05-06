@@ -7,7 +7,7 @@ Este proyecto implementa una arquitectura de microservicios local que incluye:
 - Traefik como reverse proxy
 - Orquestación con Docker Compose
 
-## 📋 Tabla de Contenidos
+## Tabla de Contenidos
 
 - [Respuestas a Conceptos Teoricos](#-conceptos-teoricos)
 - [Estructura del Proyecto](#-estructura-del-proyecto)
@@ -178,7 +178,7 @@ Esto habilita:
 - A+ en SSL Labs (con configuración adicional)
 
 
-## 🗂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 microservicios/
@@ -214,7 +214,7 @@ microservicios/
    docker-compose up -d --build
    ```
 
-## 🚀 Uso
+## Uso
 
 ### Publicar un mensaje
 ```bash
@@ -244,7 +244,7 @@ docker-compose exec worker cat /app/data/messages.log
 ![image](https://github.com/user-attachments/assets/39ba45f3-5bfb-41fb-8667-c191f3ffdf7a)
 
 
-## 📡 Endpoints
+## Endpoints
 
 ### API
 - `POST /api/message` - Publica un mensaje en RabbitMQ
@@ -254,7 +254,7 @@ docker-compose exec worker cat /app/data/messages.log
 - Cola: `messages` (duradera)
 - Interfaz web en `/monitor`
 
-## 📊 Monitorización
+## Monitorización
 
 1. **Health Checks**:
    ```bash
